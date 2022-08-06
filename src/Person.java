@@ -2,8 +2,8 @@
  * Person Object Class
  */
 public class Person {
-    private int age;
-    private String firstName, lastName;
+     private int age;
+     private String firstName, lastName;
 
     /**
      * Default Constructor
@@ -17,10 +17,11 @@ public class Person {
      * @param firstName - First Name of Person
      * @param lastName - Last Name of Person
      */
-    public Person(int age , String firstName , String lastName) {
-        this.age       = age;
+    public Person(String firstName , String lastName, int age) {
+        super();
         this.firstName = firstName;
         this.lastName  = lastName;
+        this.age       = age;
     }
 
     /**
@@ -39,6 +40,6 @@ public class Person {
      */
     @Override
     public String toString( ) {
-        return "Name: " + firstName + " " + lastName + ", Age: " + age;
+        return firstName + " " + lastName + " - Age: " + age;
     }
 }
