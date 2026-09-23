@@ -6,10 +6,13 @@ This project demonstrates core data structure mechanics, Interface-driven design
 ## Core Features & Architecture
 * Custom Queue Data Structure (`Queue.java`, `QueueInterface.java`):
    Built a custom FIFO queue implementation from scratch, defining clear interface contracts for enqueue, dequeue, and peek operations.
+  
 * Domain Model (`Person.java`):
    Represents entity objects within the queuing system with custom properties and methods.
+  
 * Fulfillment Simulation (`AmazonPickQueue.java`):
    Simulates real-world inventory picking order processing and queue state management.
+  
 * Unit Verification (`TestQueue.java`):
    Comprehensive test driver verifying edge cases, queue bounds, and data integrity across queuing lifecycle operations.
 
