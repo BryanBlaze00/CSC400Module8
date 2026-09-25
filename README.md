@@ -3,6 +3,11 @@
 A Java-based simulation modeling a warehouse item pickup queue using custom object-oriented data structures. 
 This project demonstrates core data structure mechanics, Interface-driven design, and FIFO (First-In, First-Out) queuing operations without relying on standard built-in collections.
 
+## Academic Context
+* **Institution:** Colorado State University Global
+* **Course:** CSC400 - Data Structures & Algorithms
+* **Objective:** Implement custom FIFO data structures without relying on built-in Java Collections.
+
 ## Core Features & Architecture
 * Custom Queue Data Structure (`Queue.java`, `QueueInterface.java`):
    Built a custom FIFO queue implementation from scratch, defining clear interface contracts for enqueue, dequeue, and peek operations.
